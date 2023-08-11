@@ -1,0 +1,54 @@
+div>header{
+    /* border: 1px solid red; */
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+}
+div>header li{
+    /* border: 2px solid black; */
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: .4s;
+}
+div>header li:hover{
+    background-color: black;
+    color: white;
+}
+div>header ul{
+    height: 100%;
+  
+    
+}
+div>header>nav{
+    height: 100%;
+    background-color: white;
+}
+div>header>nav>div{
+    /* border: 1px solid purple; */
+}
+div>header>nav>div>figure{
+    height: 100%;
+   
+}
+div>header>nav>div>figure>img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+div>header>nav>div:nth-of-type(2)>i{
+/* background-color: aqua; */
+font-size: 23px;
+display: flex;
+justify-content: end;
+align-items: center;
+height: 100%;
+padding-right: 10px;
+cursor: pointer;
+}
